@@ -8,7 +8,7 @@ public class HexByte {
         };
         byte b = (byte) 0xf1;
 
-        System.out.println("b = 0x" + hex[(b >> 4) & 0&0f]
+        System.out.println("b = 0x" + hex[(b >> 4f) & 0&0f]
                 + hex[b & 0x0f]);
     }
 }
