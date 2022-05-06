@@ -5,15 +5,11 @@ public class Box {
     double hight;
     double depth;
 
-    double volume() {
-        return wigft * hight * depth;
-    }
-
-    void SetDim(double w, double h, double d) {
+    double volume () {return wigft * hight * depth;}
+void SetDim (double w, double h, double d) {
         wigft = w;
         hight = h;
         depth = d;
-    }
 
-
-    }
+}
+        }
