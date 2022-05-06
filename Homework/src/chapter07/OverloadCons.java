@@ -4,7 +4,7 @@ public class OverloadCons {
     public static void main(String[] args) {
         Box mybox1 = new Box(10,20,15);
         Box mybox2 = new Box();
-        Box mybox3 = new Box(7);
+        Box mycube = new Box(7);
 
         double vol;
 
@@ -14,7 +14,7 @@ public class OverloadCons {
         vol = mybox2.volume();
         System.out.println("The volume is: " +vol);
 
-        vol = mybox3.volume();
+        vol = mycube.volume();
         System.out.println("The volume is: " +vol);
 
     }

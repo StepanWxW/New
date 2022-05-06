@@ -4,6 +4,12 @@ public class Box {
     double wigft;
     double hight;
     double depth;
+
+    Box (Box ob) {
+        wigft = ob.wigft;
+        hight = ob.hight;
+        depth = ob.depth;
+    }
     Box (double w, double h, double d) {
         wigft = w;
         hight = h;
@@ -16,6 +22,7 @@ public class Box {
     }
     Box (double len) {
         wigft = hight =depth = len;
+
     }
     double volume () {return wigft * hight * depth;}
 }
