@@ -6,7 +6,7 @@ public class OverLoad1 {
         int i = 88;
 
         ob.test1();
-        ob.test1(10);
+        ob.test1(10,20);
         ob.test1(i);
         ob.test1(123.2);
     }
