@@ -17,7 +17,7 @@ public class OverloadCon2 {
 
             vol = mybox3.volume();
             System.out.println("The volume is: " +vol);
-            vol = mybox3.volume();
+            vol = myclone.volume();
             System.out.println("The volume is: " +vol);
 
 

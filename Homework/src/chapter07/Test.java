@@ -11,4 +11,7 @@ public class Test {
             else return false;
 
     }
+
+    public void meth(int a, int b) {
+    }
 }
