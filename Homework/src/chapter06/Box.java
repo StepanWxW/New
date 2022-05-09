@@ -5,7 +5,9 @@ public class Box {
     double hight;
     double depth;
 
-    double volume () {return wigft * hight * depth;}
+    double volume () {System.out.println(wigft * hight * depth);
+        return 0;
+    }
 void SetDim (double w, double h, double d) {
         wigft = w;
         hight = h;
